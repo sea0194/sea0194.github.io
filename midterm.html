@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>중간고사</title>
+<style>
+body{
+  font-family: "NanumGothic", "Malgun Gothic", "Apple SD Neo Gothic", "AppleGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background : #A4F0F0;
+  margin:auto;
+  padding:auto;
+  max-width:700px;
+}
+h1{
+  text-align:center;
+  background : black;
+  color: white;
+  height: 200px
+  width: 200px;
+  font-size:45pt;
+  padding-bottom:15px;
+  margin: 40px;
+}
+.이름{
+  text-align: right;
+  margin-right: 40px;
+}
+h2{
+ text-align: right;
+ margin: 0px 45px 0px 40px;
+ padding-bottom:10px;
+ border-bottom: 2px solid #43B16B;
+ color: #43B16B;
+}
+ol{
+  margin-left: 20px;
+}
+ul{
+  margin-left: 20px;
+}
+  
+    
+  
+p{
+ margin-left: 40px;
+ margin-right:40px;
+}
+
+img{
+  float: right;
+  height: 150px;
+  width: 150px;
+  padding: 35px 40px 40px 10px;
+}
+table{
+   background : gray;
+  
+}
+.밑{
+   border-top: 1px solid #43B16B;
+   font-style:italic;
+   
+}
+.강조{
+ background : #9E9131;
+ color: white;
+}
+</style>
+ </head>
+<body>
+  <h1>중간고사</h1>
+   <p class="이름">송지현</p>
+  <h2>블럭 요소 목록</h2>
+   <p>다음은 HTML에서 자주 사용되는 요소들입니다.</P>
+  <ol>
+    <li><span class="중요단어"> h1</span>: 큰제목 (Heading 1)</li>
+    <li><span class="중요단어"> ul</span>: 순서 없는 목록 (Unordered List)</li>
+    <li><span class="중요단어"> ol</span>: 순서 있는 목록 (Ordered List)</li>
+    <li><span class="중요단어"> table</span>: 표 (table)</li>
+  </ol>
+   <h2>인라인 요소 목록</h2>
+    <p>다음은 HTML에서 자주 사용되는 요소들입니다.</P>
+  <ul>
+    <li><span class="중요단어"> a</span>: 하이퍼링크(Anchor)</li>
+    <li><span class="중요단어"> img</span>: 이미지 (Image)</li>
+    <li><span class="중요단어"> span</span>: 일반용도의 인라인 (Span)</li>
+    <li><span class="중요단어"> strong</span>: 중요 (Strong)</li>
+    <li><span class="중요단어"> em</span>: 강조 (Emphasis)</li>   
+ </ul>
+ <h2>CSS란?</h2>
+  <p>CSS는 Cascading Stylesheet의 약자이며 HTML 같은 마크업 언어로 작성된
+    문서를 꾸미기 위해 사용합니다. HTML 문서의 <span class="강조">head<span> 요소 안에 
+     <span class="강조"> style </span> 요소를 넣고 CSS 코드를 적으면 해당 문서를 다양하게 꾸밀 수 있습니다.</p>
+  <p>CSS에 대한 더 자세한 설명은 <a href="#">CSS</a> 문서를 참고하세요.</p>
+ <h2>HTML이란?</h2>
+  <p>HTML은<span class="중요단어">하이퍼텍스트 마크업 언어(Hypertext Markup Language)</span>의 약자
+    로, 웹 페이지를 만들 때 사용되는 문서 형식입니다.</p>
+  <p>하이퍼텍스트(Hypertext)란 하이퍼링크(Hyperlink)를 담고 있는 문서를 뜻합니다.
+    하이퍼링크는 문서들이 서로 연결되어 있는 고리를 말합니다.</p>
+  <h2>이미지 넣기</h2>
+   <img src= http://kaywonsad.appspot.com/s/art01.jpg  alt="예시">
+    <p>이미지를 넣을려면 <span class="강조"> img<span>요소를 사용합니다.</p>
+      <p><span class="강조">scr</span>속성에는 이미지의 경로(URL)를 적습니다.
+      <p>이미지 요소에는 항상<span class="강조">alt</span>속성을 사용하여 대체 텍스트를 명
+        시해주어야 합니다. "alt"는 "Alternative text"의 약자로, 이미지를
+        표시할 수 없을 때 이미지를 대신하여 나타낼 텍스트를
+        뜻합니다.</p>
+   <h2>표 만들기</h2>
+    <p>표를 만들려면 <span class="강조">table</span>요소를 사용 합니다.<p>
+<table>
+  <thead>
+    <tr>
+      <th>음료</th>
+      <th>가격</th>
+      <th>알콜</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>아메리카노</td>
+      <td>2,000원</td>
+      <td>X</td>
+    </tr>
+    <tr>
+    <td>카페모카</td>
+      <td>2,500원</td>
+      <td>X</td>
+    </tr>
+    <td>맥주</td>
+      <td>2,500원</td>
+      <td>Y</td>
+  </tbody>
+</table>
+ <p class="밑">2014년 10월 14일 중간고사 송지현 작성</p>
+  
+</body>
+</html>
